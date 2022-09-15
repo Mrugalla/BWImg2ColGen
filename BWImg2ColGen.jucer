@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="BiQPZC" name="BWImg2ColGen" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="TdMNKW" name="BWImg2ColGen">
+    <GROUP id="{A7784EA8-A38F-5511-B4F8-0BAC2F5FB17A}" name="Source">
+      <FILE id="JRJyqs" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="Pk3F5h" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="BWImg2ColGen"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="BWImg2ColGen"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="D:/PluginDev/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="D:/PluginDev/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="D:/PluginDev/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="D:/PluginDev/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="D:/PluginDev/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="D:/PluginDev/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
